@@ -1,6 +1,15 @@
 <?php
 define('DIR', get_stylesheet_directory_uri());
 
+
+add_action('login_head', function () { ?>
+  <style>
+    #login h1 a {
+      background-image: url('<?= DIR ?>/assets/Group 1.png');
+    }
+  </style>
+<?php });
+
 add_action('init', function () {
   register_post_type('news', [
     'label' => 'News',
