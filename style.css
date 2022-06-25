@@ -5,3 +5,9 @@
   * Version: 1.0
   * Description: COVID19_Indonesia is a free responsive theme for WordPress.
 */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+}
