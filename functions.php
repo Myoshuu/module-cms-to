@@ -1,5 +1,5 @@
 <?php
-define('@', get_stylesheet_directory_uri());
+define('DIR', get_stylesheet_directory_uri());
 
 add_action('init', function () {
   register_post_type('news', [
