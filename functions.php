@@ -16,3 +16,9 @@ add_action('init', function () {
     'taxonomies' => ['category']
   ]);
 });
+
+add_action('wp_dashboard_setup', function () {
+  remove_meta_box('dashboard_site_health', 'dashboard', 'side');
+  remove_meta_box('wpseo-dashboard-overview', 'dashboard', 'side');
+  remove_meta_box('dashboard_primary', 'dashboard', 'side');
+});
