@@ -36,7 +36,7 @@
               <img src="<?= get_the_post_thumbnail_url() ?>" alt="<?= the_title() ?>">
             </div>
             <div class="right">
-              <h3 class="mb-1"><a href="<?= the_permalink() ?>"><?= the_title() ?></a></h3>
+              <h3 class="><a href=" <?= the_permalink() ?>"><?= the_title() ?></a></h3>
               <p><?= the_excerpt() ?></p>
             </div>
           </div>
